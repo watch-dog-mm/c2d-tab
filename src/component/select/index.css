@@ -1,0 +1,39 @@
+.menulist{
+    min-width: 200px;
+    height: 150px;
+    background:white;
+    border-radius: 4px;
+    margin-top: 2px;
+    padding-left: 0;
+    overflow-y:scroll;
+}
+
+.menu-item{
+    color:black;
+    border-top:1px solid grey;
+    list-style: none;
+    padding:0.5rem;
+}
+
+.menu-item:hover{
+    background:darkgrey;
+    color:white;
+    cursor:pointer;
+    
+}
+
+.menu{
+    min-width:200px;
+    background:white;
+    color:black;
+    border-radius: 4px;
+    padding:0.5rem;
+    cursor:pointer;
+    
+}
+
+.menu-label{
+    
+    text-align: left;
+    margin-bottom:0.25rem;
+}

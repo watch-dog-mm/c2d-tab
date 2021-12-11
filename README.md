@@ -1,3 +1,2 @@
 # c2d-tab
-Daily C2D mission tab opener web browser extension
-
+Daily C2D mission tab opener web browser extension scheduler

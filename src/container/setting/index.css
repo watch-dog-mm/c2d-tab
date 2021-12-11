@@ -1,0 +1,58 @@
+
+.setting-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display:flex;
+}
+
+.horizontal{
+    flex-direction: row;
+}
+.vertical{
+    flex-direction: column;
+}
+
+.flex-grow{
+    flex-grow:1;
+}
+
+
+.title{
+    font-size:xx-large;
+}
+
+.subtitle{
+    font-size: x-large;
+}
+
+.divider{
+    background:red;
+}
+
+.divider-horizontal{
+    margin:16px 0;
+    height:1px !important;
+}
+
+.divider-vertical{
+    margin:0 16px;
+    height:20vh !important;
+    width: 1px;
+}
+
+.text-align{
+    text-align:center;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.text-align-right{
+    text-align: right;
+}
