@@ -95,8 +95,14 @@ function start() {
   let min = 0;
   setInterval(() => {
     min++;
-    startTimer(100);
+    // startTimer(100);
     console.log(min);
   }, 600000);
 }
 start();
+
+// Message Listener
+
+chrome.storage.onChanged.addListener((opt) => {
+  console.log(opt);
+});

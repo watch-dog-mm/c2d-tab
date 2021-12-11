@@ -22,6 +22,28 @@ ___CSS_LOADER_EXPORT___.push([module.i, ".App {\n  text-align: center;\n  min-he
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/button/index.css":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/component/button/index.css ***!
+  \*******************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".button{\n  padding:0.5rem;\n  min-width:200px;\n  border-radius: 4px;\n  background:white;\n  font:inherit;\n  outline: none;\n  border-color: transparent;\n}\n.button:hover{\n  background-color: grey;\n  color:white;\n}", "",{"version":3,"sources":["webpack://src/component/button/index.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,YAAY;EACZ,aAAa;EACb,yBAAyB;AAC3B;AACA;EACE,sBAAsB;EACtB,WAAW;AACb","sourcesContent":[".button{\n  padding:0.5rem;\n  min-width:200px;\n  border-radius: 4px;\n  background:white;\n  font:inherit;\n  outline: none;\n  border-color: transparent;\n}\n.button:hover{\n  background-color: grey;\n  color:white;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/card/index.css":
 /*!*****************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/component/card/index.css ***!
@@ -66,6 +88,28 @@ ___CSS_LOADER_EXPORT___.push([module.i, ".menulist{\n    min-width: 200px;\n    
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/switch/index.css":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/component/switch/index.css ***!
+  \*******************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "/* The switch - the box around the slider */\n.switch {\n    position: relative;\n    display: inline-block;\n    width: 60px;\n    height: 34px;\n    text-align: left;\n  }\n  \n  /* Hide default HTML checkbox */\n  .switch input {\n    opacity: 0;\n    width: 0;\n    height: 0;\n  }\n  \n  /* The slider */\n  .slider {\n    position: absolute;\n    cursor: pointer;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background-color: #ccc;\n    transition: .4s;\n  }\n  \n  .slider:before {\n    position: absolute;\n    content: \"\";\n    height: 26px;\n    width: 26px;\n    left: 4px;\n    bottom: 4px;\n    background-color: white;\n    transition: .4s;\n  }\n  \n  input:checked + .slider {\n    background-color: #2196F3;\n  }\n  \n  input:focus + .slider {\n    box-shadow: 0 0 1px #2196F3;\n  }\n  \n  input:checked + .slider:before {\n    transform: translateX(26px);\n  }\n  \n  /* Rounded sliders */\n  .slider.round {\n    border-radius: 34px;\n  }\n  \n  .slider.round:before {\n    border-radius: 50%;\n  }\n\n  .switch-label{\n    \n    text-align: left;\n    margin-bottom:0.25rem;\n}", "",{"version":3,"sources":["webpack://src/component/switch/index.css"],"names":[],"mappings":"AAAA,2CAA2C;AAC3C;IACI,kBAAkB;IAClB,qBAAqB;IACrB,WAAW;IACX,YAAY;IACZ,gBAAgB;EAClB;;EAEA,+BAA+B;EAC/B;IACE,UAAU;IACV,QAAQ;IACR,SAAS;EACX;;EAEA,eAAe;EACf;IACE,kBAAkB;IAClB,eAAe;IACf,MAAM;IACN,OAAO;IACP,QAAQ;IACR,SAAS;IACT,sBAAsB;IAEtB,eAAe;EACjB;;EAEA;IACE,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ,WAAW;IACX,SAAS;IACT,WAAW;IACX,uBAAuB;IAEvB,eAAe;EACjB;;EAEA;IACE,yBAAyB;EAC3B;;EAEA;IACE,2BAA2B;EAC7B;;EAEA;IAGE,2BAA2B;EAC7B;;EAEA,oBAAoB;EACpB;IACE,mBAAmB;EACrB;;EAEA;IACE,kBAAkB;EACpB;;EAEA;;IAEE,gBAAgB;IAChB,qBAAqB;AACzB","sourcesContent":["/* The switch - the box around the slider */\n.switch {\n    position: relative;\n    display: inline-block;\n    width: 60px;\n    height: 34px;\n    text-align: left;\n  }\n  \n  /* Hide default HTML checkbox */\n  .switch input {\n    opacity: 0;\n    width: 0;\n    height: 0;\n  }\n  \n  /* The slider */\n  .slider {\n    position: absolute;\n    cursor: pointer;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background-color: #ccc;\n    -webkit-transition: .4s;\n    transition: .4s;\n  }\n  \n  .slider:before {\n    position: absolute;\n    content: \"\";\n    height: 26px;\n    width: 26px;\n    left: 4px;\n    bottom: 4px;\n    background-color: white;\n    -webkit-transition: .4s;\n    transition: .4s;\n  }\n  \n  input:checked + .slider {\n    background-color: #2196F3;\n  }\n  \n  input:focus + .slider {\n    box-shadow: 0 0 1px #2196F3;\n  }\n  \n  input:checked + .slider:before {\n    -webkit-transform: translateX(26px);\n    -ms-transform: translateX(26px);\n    transform: translateX(26px);\n  }\n  \n  /* Rounded sliders */\n  .slider.round {\n    border-radius: 34px;\n  }\n  \n  .slider.round:before {\n    border-radius: 50%;\n  }\n\n  .switch-label{\n    \n    text-align: left;\n    margin-bottom:0.25rem;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/container/setting/index.css":
 /*!********************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/container/setting/index.css ***!
@@ -81,7 +125,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "\n.setting-title{\n    display:flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.container{\n    display:flex;\n}\n\n.horizontal{\n    flex-direction: row;\n}\n.vertical{\n    flex-direction: column;\n}\n\n.flex-grow{\n    flex-grow:1;\n}\n\n\n.title{\n    font-size:xx-large;\n}\n\n.subtitle{\n    font-size: x-large;\n}\n\n.divider{\n    background:red;\n}\n\n.divider-horizontal{\n    margin:16px 0;\n    height:1px !important;\n}\n\n.divider-vertical{\n    margin:0 16px;\n    height:20vh !important;\n    width: 1px;\n}\n\n.text-align{\n    text-align:center;\n}\n\n.text-align-left{\n    text-align: left;\n}\n\n.text-align-right{\n    text-align: right;\n}\n", "",{"version":3,"sources":["webpack://src/container/setting/index.css"],"names":[],"mappings":";AACA;IACI,YAAY;IACZ,uBAAuB;IACvB,mBAAmB;;AAEvB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,mBAAmB;AACvB;AACA;IACI,sBAAsB;AAC1B;;AAEA;IACI,WAAW;AACf;;;AAGA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,aAAa;IACb,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,UAAU;AACd;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,iBAAiB;AACrB","sourcesContent":["\n.setting-title{\n    display:flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.container{\n    display:flex;\n}\n\n.horizontal{\n    flex-direction: row;\n}\n.vertical{\n    flex-direction: column;\n}\n\n.flex-grow{\n    flex-grow:1;\n}\n\n\n.title{\n    font-size:xx-large;\n}\n\n.subtitle{\n    font-size: x-large;\n}\n\n.divider{\n    background:red;\n}\n\n.divider-horizontal{\n    margin:16px 0;\n    height:1px !important;\n}\n\n.divider-vertical{\n    margin:0 16px;\n    height:20vh !important;\n    width: 1px;\n}\n\n.text-align{\n    text-align:center;\n}\n\n.text-align-left{\n    text-align: left;\n}\n\n.text-align-right{\n    text-align: right;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "\n.setting-title{\n    display:flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.container{\n    display:flex;\n}\n\n.horizontal{\n    flex-direction: row;\n}\n.vertical{\n    flex-direction: column;\n}\n\n.flex-grow{\n    flex-grow:1;\n}\n\n\n.title{\n    font-size:xx-large;\n}\n\n.subtitle{\n    font-size: x-large;\n}\n\n.divider{\n    background:red;\n}\n\n.divider-horizontal{\n    margin:16px 0;\n    height:1px !important;\n}\n\n.divider-vertical{\n    margin:0 16px;\n    height:20vh !important;\n    width: 1px;\n}\n\n.text-align{\n    text-align:center;\n}\n\n.text-align-left{\n    text-align: left;\n}\n\n.text-align-right{\n    text-align: right;\n}\n\n.mt-1{\n    margin-top: 1rem;\n}\n\n.mb-1{\n    margin-bottom:1rem;\n}\n", "",{"version":3,"sources":["webpack://src/container/setting/index.css"],"names":[],"mappings":";AACA;IACI,YAAY;IACZ,uBAAuB;IACvB,mBAAmB;;AAEvB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,mBAAmB;AACvB;AACA;IACI,sBAAsB;AAC1B;;AAEA;IACI,WAAW;AACf;;;AAGA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,aAAa;IACb,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,UAAU;AACd;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;AACtB","sourcesContent":["\n.setting-title{\n    display:flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.container{\n    display:flex;\n}\n\n.horizontal{\n    flex-direction: row;\n}\n.vertical{\n    flex-direction: column;\n}\n\n.flex-grow{\n    flex-grow:1;\n}\n\n\n.title{\n    font-size:xx-large;\n}\n\n.subtitle{\n    font-size: x-large;\n}\n\n.divider{\n    background:red;\n}\n\n.divider-horizontal{\n    margin:16px 0;\n    height:1px !important;\n}\n\n.divider-vertical{\n    margin:0 16px;\n    height:20vh !important;\n    width: 1px;\n}\n\n.text-align{\n    text-align:center;\n}\n\n.text-align-left{\n    text-align: left;\n}\n\n.text-align-right{\n    text-align: right;\n}\n\n.mt-1{\n    margin-top: 1rem;\n}\n\n.mb-1{\n    margin-bottom:1rem;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -184,12 +228,12 @@ const App = () => {
           path: `/setting`,
           element: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_container_setting__WEBPACK_IMPORTED_MODULE_2__["default"], {}, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 27,
             columnNumber: 50
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 27,
           columnNumber: 15
         }, undefined)]
       }, void 0, true, {
@@ -210,6 +254,74 @@ const App = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/component/button/index.css":
+/*!****************************************!*\
+  !*** ./src/component/button/index.css ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/button/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/component/button/index.tsx":
+/*!****************************************!*\
+  !*** ./src/component/button/index.tsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./src/component/button/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/home/win/Documents/Javascript/c2d-tab/src/component/button/index.tsx";
+
+
+
+
+const Button = ({
+  children,
+  onClick
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
+    className: "button",
+    onClick: () => onClick === null || onClick === void 0 ? void 0 : onClick(),
+    children: children || "Your label"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 5
+  }, undefined);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Button);
 
 /***/ }),
 
@@ -251,24 +363,29 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ "./src/component/card/index.css");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./src/component/card/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/home/win/Documents/Javascript/c2d-tab/src/component/card/index.tsx";
 
 
 
-const Card = () => {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+
+const Card = ({
+  children
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
     className: "card",
     style: {
       background: '#41464f'
     },
-    children: "Dijkstra\u2019s algorithm: Dijkstra\u2019s algorithm is very similar to Prim\u2019s algorithm for minimum spanning tree. Like Prim\u2019s MST, we generate a SPT (shortest path tree) with given source as root. We maintain two sets, one set contains vertices included in shortest path tree, other set includes vertices not yet included in shortest path tree. At every step of the algorithm, we find a vertex which is in the other set (set of not yet included) and has a minimum distance from the source."
+    children: children
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 4,
+    lineNumber: 5,
     columnNumber: 11
   }, undefined);
 };
@@ -468,6 +585,134 @@ const Select = ({
 
 /***/ }),
 
+/***/ "./src/component/switch/index.css":
+/*!****************************************!*\
+  !*** ./src/component/switch/index.css ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/switch/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/component/switch/index.tsx":
+/*!****************************************!*\
+  !*** ./src/component/switch/index.tsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./src/component/switch/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/home/win/Documents/Javascript/c2d-tab/src/component/switch/index.tsx";
+
+
+
+
+
+const Switch = ({
+  value = false,
+  label,
+  onChange
+}) => {
+  const [checked, setChecked] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(value);
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    setChecked(value);
+  }, [value]);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      style: {
+        textAlign: "left"
+      },
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "switch-label",
+        children: label || "Your label"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+        className: "switch",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+          type: "checkbox",
+          checked: checked,
+          onChange: () => {
+            setChecked(prev => !prev);
+            onChange === null || onChange === void 0 ? void 0 : onChange(!checked);
+          }
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("span", {
+          className: "slider round"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Switch);
+
+/***/ }),
+
+/***/ "./src/constants.ts":
+/*!**************************!*\
+  !*** ./src/constants.ts ***!
+  \**************************/
+/*! exports provided: STORAGE_KEY */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "STORAGE_KEY", function() { return STORAGE_KEY; });
+let STORAGE_KEY;
+
+(function (STORAGE_KEY) {
+  STORAGE_KEY["C2D_INTERVAL"] = "C2D_INTERVAL";
+  STORAGE_KEY["C2D_TAB"] = "C2D_TAB";
+  STORAGE_KEY["C2D_AUTO_START"] = "C2D_AUTO_START";
+})(STORAGE_KEY || (STORAGE_KEY = {}));
+
+/***/ }),
+
 /***/ "./src/container/setting/index.css":
 /*!*****************************************!*\
   !*** ./src/container/setting/index.css ***!
@@ -512,9 +757,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _component_select__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../component/select */ "./src/component/select/index.tsx");
 /* harmony import */ var _component_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../component/card */ "./src/component/card/index.tsx");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _component_switch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../component/switch */ "./src/component/switch/index.tsx");
+/* harmony import */ var _component_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../component/button */ "./src/component/button/index.tsx");
+/* harmony import */ var _utils_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../utils/storage */ "./src/utils/storage.ts");
+/* harmony import */ var _hooks_useStorage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../hooks/useStorage */ "./src/hooks/useStorage.tsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../constants */ "./src/constants.ts");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__);
 var _jsxFileName = "/home/win/Documents/Javascript/c2d-tab/src/container/setting/index.tsx";
+
+
+
+
+
 
 
 
@@ -548,170 +803,250 @@ const MINIMUM_Tabs = [{
   value: 6
 }];
 
-const Setting = () => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["Fragment"], {
-  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
-      className: "title setting-title",
-      children: "Setting"
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-        className: "divider divider-horizontal"
+const Setting = () => {
+  const interval = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_7__["default"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_INTERVAL);
+  const numberOfTabs = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_7__["default"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_TAB);
+  const autoStart = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_7__["default"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_AUTO_START);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("a", {
+        className: "title setting-title",
+        children: "C2D Tab extension Settings"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 32,
         columnNumber: 9
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-      className: "container horizontal",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-        className: "container vertical flex-grow",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            options: TIME_INTERVALS,
-            selectedOption: {
-              label: "30 minutes",
-              value: 1.8e6
-            },
-            label: "Tabs Show up Interval",
-            onMenuItemClick: () => {
-              console.log();
-            }
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 27,
-            columnNumber: 11
-          }, undefined)
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 26,
-          columnNumber: 9
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            options: MINIMUM_Tabs,
-            selectedOption: {
-              label: "4 Tabs",
-              value: 4
-            },
-            label: "Minimum Tabs to Show",
-            onMenuItemClick: () => {
-              console.log();
-            }
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 37,
-            columnNumber: 11
-          }, undefined)
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 36,
-          columnNumber: 9
-        }, undefined)]
-      }, void 0, true, {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_button__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        children: "Start Supporting"
+      }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 25,
-        columnNumber: 7
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-          className: "divider divider-vertical"
+        lineNumber: 33,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "divider divider-horizontal"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 48,
-          columnNumber: 9
+          lineNumber: 35,
+          columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 7
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-        className: "container vertical flex-grow",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            options: TIME_INTERVALS,
-            selectedOption: {
-              label: "30 minutes",
-              value: 1.8e6
-            },
-            label: "Tabs Show up Interval",
-            onMenuItemClick: () => {
-              console.log();
-            }
+        lineNumber: 34,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        className: "container horizontal",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "container vertical flex-grow",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_2__["default"], {
+              options: TIME_INTERVALS,
+              selectedOption: interval ? interval : {
+                label: "30 minutes",
+                value: 1.8e6
+              },
+              label: "Tabs Show up Interval",
+              onMenuItemClick: option => {
+                Object(_utils_storage__WEBPACK_IMPORTED_MODULE_6__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_INTERVAL, option);
+              }
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 41,
+              columnNumber: 15
+            }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 52,
-            columnNumber: 11
+            lineNumber: 40,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_2__["default"], {
+              options: MINIMUM_Tabs,
+              selectedOption: numberOfTabs ? numberOfTabs : {
+                label: "4 Tabs",
+                value: 4
+              },
+              label: "Minimum Tabs to Show",
+              onMenuItemClick: option => {
+                Object(_utils_storage__WEBPACK_IMPORTED_MODULE_6__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_TAB, option);
+              }
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 55,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 54,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+            className: "divider divider-vertical"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 66,
+            columnNumber: 13
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 51,
-          columnNumber: 9
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            options: MINIMUM_Tabs,
-            selectedOption: {
-              label: "4 Tabs",
-              value: 4
-            },
-            label: "Minimum Tabs to Show",
-            onMenuItemClick: () => {
-              console.log();
-            }
+          lineNumber: 65,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "container vertical flex-grow",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_switch__WEBPACK_IMPORTED_MODULE_4__["default"], {
+              label: "Start with Browser",
+              onChange: val => Object(_utils_storage__WEBPACK_IMPORTED_MODULE_6__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_AUTO_START, val),
+              value: autoStart
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 70,
+              columnNumber: 15
+            }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 62,
-            columnNumber: 11
+            lineNumber: 69,
+            columnNumber: 13
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 61,
-          columnNumber: 9
+          lineNumber: 68,
+          columnNumber: 11
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 7
-      }, undefined)]
-    }, void 0, true, {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-        className: "divider divider-horizontal"
+        lineNumber: 38,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "divider divider-horizontal"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 75,
+          columnNumber: 11
+        }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 74,
         columnNumber: 9
-      }, undefined)
-    }, void 0, false, {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        className: "subtitle text-align-left mb-1",
+        children: "Why we do this extension"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("ul", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("li", {
+            children: "\u1019\u1031\u1037\u1010\u1010\u103A\u101C\u102D\u102F\u1037"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 82,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("li", {
+            children: "\u1016\u102F\u1014\u103A\u1038\u1012\u1031\u1010\u102C\u1005\u103B\u1031\u1038\u1010\u1000\u103A\u101C\u102C\u101C\u102D\u102F\u1037 Wifi \u101B\u103E\u102D\u1010\u1032\u1037 \u101E\u1030\u1010\u103D\u1031 \u1000\u103D\u1014\u103A\u1015\u103C\u1030\u1010\u102C\u1014\u1032\u1037 \u1015\u102B\u101D\u1004\u103A\u1014\u102D\u102F\u1004\u103A\u1021\u1031\u102C\u1004\u103A"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 83,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 81,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 80,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "divider divider-horizontal"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        className: "subtitle text-align-left mb-1",
+        children: "How it worked"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 93,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        children: "Extension \u101E\u103D\u1004\u103A\u1038\u1011\u102C\u1038\u1001\u103C\u1004\u103A\u1038\u1016\u103C\u1004\u103A\u1037 \u1000\u102D\u102F\u101A\u103A\u1010\u102D\u102F\u1004\u103A C2D link \u1010\u103D\u1031\u1000\u102D\u102F \u1000\u1030\u1038\u1015\u103C\u102E\u1038\u1014\u103E\u102D\u1015\u103A\u1005\u101B\u102C\u1019\u101C\u102D\u102F\u1015\u102B\u1018\u1030\u1038 Tab \u1010\u103D\u1031\u101E\u103D\u102C\u1038\u1016\u103D\u1004\u103A\u1037\u1005\u101B\u102C\u1019\u101C\u102D\u102F\u1015\u102B\u1018\u1030\u1038\u1021\u1000\u101A\u103A\u101C\u102D\u102F\u1037\u1019\u102D\u1010\u103A\u1006\u103D\u1031\u1000 tab\u1010\u103D\u1031\u1000\u102D\u102F \u1019\u1015\u102D\u1010\u103A\u1016\u103C\u1005\u103A\u101B\u1004\u103A\u1010\u1031\u102C\u1004\u103A \u1019\u102D\u1010\u103A\u1006\u103D\u1031\u101E\u1010\u103A\u1019\u103E\u1010\u103A\u1011\u102C\u1038\u1010\u1032\u1037 \u1021\u1001\u103B\u102D\u1014\u103A\u1019\u103E\u102C \u101E\u1030\u1037\u1021\u101C\u102D\u102F\u101C\u102D\u102F\u1015\u102D\u1010\u103A\u1015\u1031\u1038\u1015\u102B\u1019\u101A\u103A"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 94,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "divider divider-horizontal"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 101,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 100,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        className: "subtitle text-align-left mb-1",
+        children: ["Privacy of user Data", " "]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 103,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        children: "\u1012\u102E Extention \u1000 User \u101B\u1032\u1037 \u1019\u100A\u103A\u101E\u100A\u103A\u1037 \u1021\u1001\u103B\u1000\u103A\u1021\u101C\u1000\u103A\u1000\u102D\u102F\u1019\u103B\u103E \u1019\u100A\u103A\u101E\u100A\u103A\u1037\u1014\u100A\u103A\u1038\u1014\u103E\u1004\u103A\u1037\u1019\u1006\u102D\u102F \u101B\u101A\u1030\u101E\u102F\u1036\u1038\u1005\u103D\u1032\u1001\u103C\u1004\u103A\u1038\u1019\u101B\u103E\u102D\u1015\u102B\u104B"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 106,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "divider divider-horizontal"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 111,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        className: "subtitle text-align-left mb-1",
+        children: "Code \u1000\u102D\u102F \u1018\u101A\u103A\u1019\u103E\u102C\u1000\u103C\u100A\u103A\u1037\u101C\u102D\u102F\u1037\u101B\u1019\u101C\u1032"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 114,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        children: "http://github.com"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 117,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 31,
       columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-      className: "subtitle text-align-left",
-      children: "Why we do this extension"
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 7
-    }, undefined)]
-  }, void 0, true, {
-    fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 5
-  }, undefined)
-}, void 0, false);
+    }, undefined)
+  }, void 0, false);
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Setting);
 
@@ -767,6 +1102,39 @@ function useOnClickOutside(ref, callback) {
     };
   }, [ref]);
 }
+
+/***/ }),
+
+/***/ "./src/hooks/useStorage.tsx":
+/*!**********************************!*\
+  !*** ./src/hooks/useStorage.tsx ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _utils_storage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/storage */ "./src/utils/storage.ts");
+
+
+
+const useStorage = key => {
+  const [result, setResult] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(undefined);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    const loadStorage = async () => {
+      const interval = await Object(_utils_storage__WEBPACK_IMPORTED_MODULE_1__["getStorage"])(key);
+      setResult(interval[key]);
+      return interval[key];
+    };
+
+    loadStorage();
+  }, [key]);
+  return result;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (useStorage);
 
 /***/ }),
 
@@ -871,6 +1239,66 @@ const reportWebVitals = onPerfEntry => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (reportWebVitals);
+
+/***/ }),
+
+/***/ "./src/utils/storage.ts":
+/*!******************************!*\
+  !*** ./src/utils/storage.ts ***!
+  \******************************/
+/*! exports provided: browserObject, SETTING_STORAGE, clearStorage, setStorage, createDefaultOptions, getStorage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "browserObject", function() { return browserObject; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SETTING_STORAGE", function() { return SETTING_STORAGE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "clearStorage", function() { return clearStorage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setStorage", function() { return setStorage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createDefaultOptions", function() { return createDefaultOptions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStorage", function() { return getStorage; });
+//@ts-ignore
+const browserObject = chrome ? chrome : browser;
+const SETTING_STORAGE = "setting_storage";
+const clearStorage = () => {
+  if (browserObject && browserObject.storage) {
+    browserObject.storage.sync.clear();
+  } else {
+    localStorage.clear();
+  }
+};
+const setStorage = (key, value) => {
+  const setOptions = new Promise((resolve, reject) => {
+    if (browserObject && browserObject.storage) {
+      browserObject.storage.sync.set({
+        [key]: value
+      }, () => {
+        if (browserObject.runtime.lastError) reject(null);
+        resolve(true);
+      });
+    } else {
+      localStorage.setItem(key, JSON.stringify({
+        setting_storage: value
+      }));
+      resolve(true);
+    }
+  });
+  return setOptions;
+};
+const createDefaultOptions = options => {
+  return {
+    settings: options
+  };
+};
+const getStorage = async key => {
+  if (browserObject && browserObject.storage) {
+    const result = await browserObject.storage.sync.get([key]);
+    return result;
+  } else {
+    const option = localStorage.getItem(key);
+    return option;
+  }
+};
 
 /***/ })
 

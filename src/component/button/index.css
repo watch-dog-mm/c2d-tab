@@ -1,0 +1,13 @@
+.button{
+  padding:0.5rem;
+  min-width:200px;
+  border-radius: 4px;
+  background:white;
+  font:inherit;
+  outline: none;
+  border-color: transparent;
+}
+.button:hover{
+  background-color: grey;
+  color:white;
+}

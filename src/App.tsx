@@ -24,11 +24,10 @@ const App=()=> {
         <Router basename="/">
               <Routes>
               <Route  path={`/`} element={ <SettingView />}/>
-           
               <Route  path={`/setting`} element={<SettingView />}/>
               </Routes>
           </Router>
-      {/* </header> */}
+      
     </div>
   )
 }

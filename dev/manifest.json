@@ -16,11 +16,8 @@
     },
     "default_popup": "/index.html#/setting"
   },
-  
   "host_permissions": ["<all_urls>"],
   "background": {
-    
     "service_worker": "background.js"
-
   }
 }
