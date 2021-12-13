@@ -4,7 +4,7 @@
   padding:4%;
   background-color: #282c34;
   color:white;
-  
+  min-width: 800px;
 }
 
 .App-logo {

@@ -1,12 +1,14 @@
-import React, { useCallback, useMemo } from "react";
 import "./index.css";
 import Select from "../../component/select";
 import Card from "../../component/card";
 import Switch from "../../component/switch";
-import Button from "../../component/button";
-import { setStorage, getStorage } from "../../utils/storage";
+
+import { setStorage } from "../../utils/storage";
 import useStorage from "../../hooks/useStorage";
-import {STORAGE_KEY} from '../../constants'
+import { STORAGE_KEY } from "../../constants";
+
+import SnackBarMessage from "../../component/snackbar";
+
 
 const TIME_INTERVALS = [
   { label: "5 minutes", value: 300000 },
@@ -21,16 +23,20 @@ const MINIMUM_Tabs = [
   { label: "6 Tabs", value: 6 },
 ];
 const Setting = () => {
- const interval = useStorage(STORAGE_KEY.C2D_INTERVAL)
- const numberOfTabs = useStorage(STORAGE_KEY.C2D_TAB)
- const autoStart = useStorage(STORAGE_KEY.C2D_AUTO_START)
- 
- 
+  const interval = useStorage(STORAGE_KEY.C2D_INTERVAL);
+  const numberOfTabs = useStorage(STORAGE_KEY.C2D_TAB);
+  const autoStart = useStorage(STORAGE_KEY.C2D_AUTO_START);
+
   return (
     <>
       <div>
-        <a className="title setting-title">C2D Tab extension Settings</a>
-        <Button>Start Supporting</Button>
+        <a
+          href="https://github.com/watch-dog-mm/c2d-tab" target="_blank"
+          className="title setting-title" rel="noreferrer"
+        >
+          Your Daily C2D mission Settings
+        </a>
+
         <div>
           <div className="divider divider-horizontal"></div>
         </div>
@@ -41,23 +47,29 @@ const Setting = () => {
               <Select
                 options={TIME_INTERVALS}
                 selectedOption={
-                  interval
-                    ? interval
-                    : { label: "30 minutes", value: 1.8e6 }
+                  interval ? interval : { label: "30 minutes", value: 1.8e6 }
                 }
                 label="Tabs Show up Interval"
                 onMenuItemClick={(option) => {
                   setStorage(STORAGE_KEY.C2D_INTERVAL, option);
+                  SnackBarMessage(
+                    `Extension မှ နောက်ထပ် ${option.label} တွင် ကြော်ငြာများဖွင့်ပေးပါမည်။`
+                  );
                 }}
               />
             </div>
             <div>
               <Select
                 options={MINIMUM_Tabs}
-                selectedOption={numberOfTabs?numberOfTabs:{ label: "4 Tabs", value: 4 }}
+                selectedOption={
+                  numberOfTabs ? numberOfTabs : { label: "4 Tabs", value: 4 }
+                }
                 label="Minimum Tabs to Show"
                 onMenuItemClick={(option) => {
                   setStorage(STORAGE_KEY.C2D_TAB, option);
+                  SnackBarMessage(
+                    `Extension မှကြော်ငြာစဖွင့်လျှင် Tab ${option.value} ခုပွင့်လာပါလိမ့်မည်။`
+                  );
                 }}
               />
             </div>
@@ -67,7 +79,18 @@ const Setting = () => {
           </div>
           <div className="container vertical flex-grow">
             <div>
-              <Switch label="Start with Browser" onChange={(val)=>setStorage(STORAGE_KEY.C2D_AUTO_START, val)} value={autoStart} />
+              <Switch
+                label="ကွန်ပြူတာဖွင့်တာနှင့် စတင်မည်"
+                onChange={(val) => {
+                  setStorage(STORAGE_KEY.C2D_AUTO_START, val);
+                  SnackBarMessage(
+                    `Extension ကို နောက်တကြိမ် ကွန်ပြူတာဖွင့် တာနှင့် ${
+                      val ? "စတင်ပါမည်" : "မစတင်တော့ပါ"
+                    }။`
+                  );
+                }}
+                value={autoStart}
+              />
             </div>
           </div>
         </div>
@@ -97,6 +120,9 @@ const Setting = () => {
           tabတွေကို မပိတ်ဖြစ်ရင်တောင် မိတ်ဆွေသတ်မှတ်ထားတဲ့ အချိန်မှာ
           သူ့အလိုလိုပိတ်ပေးပါမယ်
         </Card>
+        <Card>
+         ကျေးဇူးပြုပြီး မိမိတို့ရဲ့ Ads Blocker များ ကို ပိတ်ထားပေးဖို့ မေတ္တာရပ်ခံချင်ပါတယ်။
+        </Card>
         <div>
           <div className="divider divider-horizontal"></div>
         </div>
@@ -114,7 +140,7 @@ const Setting = () => {
         <div className="subtitle text-align-left mb-1">
           Code ကို ဘယ်မှာကြည့်လို့ရမလဲ
         </div>
-        <Card>http://github.com</Card>
+        <Card>https://github.com/watch-dog-mm/c2d-tab</Card>
       </div>
     </>
   );

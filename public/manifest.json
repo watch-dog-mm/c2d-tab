@@ -8,7 +8,7 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": ["storage",  "tabs","activeTab","scripting"],
+  "permissions": ["storage",  "tabs","activeTab"],
   "action": {
     "default_icon": {
       "16": "icon16.png",
@@ -19,5 +19,6 @@
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
+    
   }
 }

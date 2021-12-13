@@ -15,29 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".App {\n  text-align: center;\n  min-height:100vh;\n  padding:4%;\n  background-color: #282c34;\n  color:white;\n  \n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n \n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,gBAAgB;EAChB,UAAU;EACV,yBAAyB;EACzB,WAAW;;AAEb;;AAEA;EACE,cAAc;EACd,oBAAoB;AACtB;;AAEA;EACE;IACE,4CAA4C;EAC9C;AACF;;AAEA;;EAEE,iBAAiB;EACjB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE;IACE,uBAAuB;EACzB;EACA;IACE,yBAAyB;EAC3B;AACF","sourcesContent":[".App {\n  text-align: center;\n  min-height:100vh;\n  padding:4%;\n  background-color: #282c34;\n  color:white;\n  \n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n \n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/button/index.css":
-/*!*******************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/component/button/index.css ***!
-  \*******************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
-// Module
-___CSS_LOADER_EXPORT___.push([module.i, ".button{\n  padding:0.5rem;\n  min-width:200px;\n  border-radius: 4px;\n  background:white;\n  font:inherit;\n  outline: none;\n  border-color: transparent;\n}\n.button:hover{\n  background-color: grey;\n  color:white;\n}", "",{"version":3,"sources":["webpack://src/component/button/index.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,YAAY;EACZ,aAAa;EACb,yBAAyB;AAC3B;AACA;EACE,sBAAsB;EACtB,WAAW;AACb","sourcesContent":[".button{\n  padding:0.5rem;\n  min-width:200px;\n  border-radius: 4px;\n  background:white;\n  font:inherit;\n  outline: none;\n  border-color: transparent;\n}\n.button:hover{\n  background-color: grey;\n  color:white;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".App {\n  text-align: center;\n  min-height:100vh;\n  padding:4%;\n  background-color: #282c34;\n  color:white;\n  min-width: 800px;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n \n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,gBAAgB;EAChB,UAAU;EACV,yBAAyB;EACzB,WAAW;EACX,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,oBAAoB;AACtB;;AAEA;EACE;IACE,4CAA4C;EAC9C;AACF;;AAEA;;EAEE,iBAAiB;EACjB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE;IACE,uBAAuB;EACzB;EACA;IACE,yBAAyB;EAC3B;AACF","sourcesContent":[".App {\n  text-align: center;\n  min-height:100vh;\n  padding:4%;\n  background-color: #282c34;\n  color:white;\n  min-width: 800px;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n \n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -88,6 +66,28 @@ ___CSS_LOADER_EXPORT___.push([module.i, ".menulist{\n    min-width: 200px;\n    
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/snackbar/index.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/component/snackbar/index.css ***!
+  \*********************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "/* The snackbar - position it at the bottom and in the middle of the screen */\n#snackbar {\n    visibility: hidden; /* Hidden by default. Visible on click */\n    min-width: 250px; /* Set a default minimum width */\n    margin-left: -125px; /* Divide value of min-width by 2 */\n    background-color: #333; /* Black background color */\n    color: #fff; /* White text color */\n    text-align: center; /* Centered text */\n    border-radius: 4px; /* Rounded borders */\n    padding: 16px; /* Padding */\n    position: fixed; /* Sit on top of the screen */\n    z-index: 1; /* Add a z-index if needed */\n    left: 50%; /* Center the snackbar */\n    bottom: 30px; /* 30px from the bottom */\n  }\n  \n  /* Show the snackbar when clicking on a button (class added with JavaScript) */\n  #snackbar.show {\n    visibility: visible; /* Show the snackbar */\n    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.\n    However, delay the fade out process for 2.5 seconds */\n    animation: fadein 0.5s, fadeout 0.5s 2.5s;\n  }\n  \n  /* Animations to fade the snackbar in and out */\n  \n  @keyframes fadein {\n    from {\n      bottom: 0;\n      opacity: 0;\n    }\n    to {\n      bottom: 30px;\n      opacity: 1;\n    }\n  }\n  \n  @keyframes fadeout {\n    from {\n      bottom: 30px;\n      opacity: 1;\n    }\n    to {\n      bottom: 0;\n      opacity: 0;\n    }\n  }", "",{"version":3,"sources":["webpack://src/component/snackbar/index.css"],"names":[],"mappings":"AAAA,6EAA6E;AAC7E;IACI,kBAAkB,EAAE,wCAAwC;IAC5D,gBAAgB,EAAE,gCAAgC;IAClD,mBAAmB,EAAE,mCAAmC;IACxD,sBAAsB,EAAE,2BAA2B;IACnD,WAAW,EAAE,qBAAqB;IAClC,kBAAkB,EAAE,kBAAkB;IACtC,kBAAkB,EAAE,oBAAoB;IACxC,aAAa,EAAE,YAAY;IAC3B,eAAe,EAAE,6BAA6B;IAC9C,UAAU,EAAE,4BAA4B;IACxC,SAAS,EAAE,wBAAwB;IACnC,YAAY,EAAE,yBAAyB;EACzC;;EAEA,8EAA8E;EAC9E;IACE,mBAAmB,EAAE,sBAAsB;IAC3C;yDACqD;IAErD,yCAAyC;EAC3C;;EAEA,+CAA+C;;EAY/C;IACE;MACE,SAAS;MACT,UAAU;IACZ;IACA;MACE,YAAY;MACZ,UAAU;IACZ;EACF;;EAaA;IACE;MACE,YAAY;MACZ,UAAU;IACZ;IACA;MACE,SAAS;MACT,UAAU;IACZ;EACF","sourcesContent":["/* The snackbar - position it at the bottom and in the middle of the screen */\n#snackbar {\n    visibility: hidden; /* Hidden by default. Visible on click */\n    min-width: 250px; /* Set a default minimum width */\n    margin-left: -125px; /* Divide value of min-width by 2 */\n    background-color: #333; /* Black background color */\n    color: #fff; /* White text color */\n    text-align: center; /* Centered text */\n    border-radius: 4px; /* Rounded borders */\n    padding: 16px; /* Padding */\n    position: fixed; /* Sit on top of the screen */\n    z-index: 1; /* Add a z-index if needed */\n    left: 50%; /* Center the snackbar */\n    bottom: 30px; /* 30px from the bottom */\n  }\n  \n  /* Show the snackbar when clicking on a button (class added with JavaScript) */\n  #snackbar.show {\n    visibility: visible; /* Show the snackbar */\n    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.\n    However, delay the fade out process for 2.5 seconds */\n    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;\n    animation: fadein 0.5s, fadeout 0.5s 2.5s;\n  }\n  \n  /* Animations to fade the snackbar in and out */\n  @-webkit-keyframes fadein {\n    from {\n      bottom: 0;\n      opacity: 0;\n    }\n    to {\n      bottom: 30px;\n      opacity: 1;\n    }\n  }\n  \n  @keyframes fadein {\n    from {\n      bottom: 0;\n      opacity: 0;\n    }\n    to {\n      bottom: 30px;\n      opacity: 1;\n    }\n  }\n  \n  @-webkit-keyframes fadeout {\n    from {\n      bottom: 30px;\n      opacity: 1;\n    }\n    to {\n      bottom: 0;\n      opacity: 0;\n    }\n  }\n  \n  @keyframes fadeout {\n    from {\n      bottom: 30px;\n      opacity: 1;\n    }\n    to {\n      bottom: 0;\n      opacity: 0;\n    }\n  }"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/switch/index.css":
 /*!*******************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/component/switch/index.css ***!
@@ -125,7 +125,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "\n.setting-title{\n    display:flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.container{\n    display:flex;\n}\n\n.horizontal{\n    flex-direction: row;\n}\n.vertical{\n    flex-direction: column;\n}\n\n.flex-grow{\n    flex-grow:1;\n}\n\n\n.title{\n    font-size:xx-large;\n}\n\n.subtitle{\n    font-size: x-large;\n}\n\n.divider{\n    background:red;\n}\n\n.divider-horizontal{\n    margin:16px 0;\n    height:1px !important;\n}\n\n.divider-vertical{\n    margin:0 16px;\n    height:20vh !important;\n    width: 1px;\n}\n\n.text-align{\n    text-align:center;\n}\n\n.text-align-left{\n    text-align: left;\n}\n\n.text-align-right{\n    text-align: right;\n}\n\n.mt-1{\n    margin-top: 1rem;\n}\n\n.mb-1{\n    margin-bottom:1rem;\n}\n", "",{"version":3,"sources":["webpack://src/container/setting/index.css"],"names":[],"mappings":";AACA;IACI,YAAY;IACZ,uBAAuB;IACvB,mBAAmB;;AAEvB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,mBAAmB;AACvB;AACA;IACI,sBAAsB;AAC1B;;AAEA;IACI,WAAW;AACf;;;AAGA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,aAAa;IACb,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,UAAU;AACd;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;AACtB","sourcesContent":["\n.setting-title{\n    display:flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.container{\n    display:flex;\n}\n\n.horizontal{\n    flex-direction: row;\n}\n.vertical{\n    flex-direction: column;\n}\n\n.flex-grow{\n    flex-grow:1;\n}\n\n\n.title{\n    font-size:xx-large;\n}\n\n.subtitle{\n    font-size: x-large;\n}\n\n.divider{\n    background:red;\n}\n\n.divider-horizontal{\n    margin:16px 0;\n    height:1px !important;\n}\n\n.divider-vertical{\n    margin:0 16px;\n    height:20vh !important;\n    width: 1px;\n}\n\n.text-align{\n    text-align:center;\n}\n\n.text-align-left{\n    text-align: left;\n}\n\n.text-align-right{\n    text-align: right;\n}\n\n.mt-1{\n    margin-top: 1rem;\n}\n\n.mb-1{\n    margin-bottom:1rem;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "\n.setting-title{\n    display:flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.container{\n    display:flex;\n}\n\n.horizontal{\n    flex-direction: row;\n}\n.vertical{\n    flex-direction: column;\n}\n\n.flex-grow{\n    flex-grow:1;\n}\n\n\n.title{\n    font-size:xx-large;\n}\n\n.subtitle{\n    font-size: x-large;\n}\n\n.divider{\n    background:red;\n}\n\n.divider-horizontal{\n    margin:16px 0;\n    height:1px !important;\n}\n\n.divider-vertical{\n    margin:0 16px;\n    height:20vh !important;\n    width: 1px;\n}\n\n.text-align{\n    text-align:center;\n}\n\n.text-align-left{\n    text-align: left;\n}\n\n.text-align-right{\n    text-align: right;\n}\n\n.mt-1{\n    margin-top: 1rem;\n}\n\n.mb-1{\n    margin-bottom:1rem;\n}\n\na{\n    text-decoration: none;\n    color:white;\n}\n", "",{"version":3,"sources":["webpack://src/container/setting/index.css"],"names":[],"mappings":";AACA;IACI,YAAY;IACZ,uBAAuB;IACvB,mBAAmB;;AAEvB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,mBAAmB;AACvB;AACA;IACI,sBAAsB;AAC1B;;AAEA;IACI,WAAW;AACf;;;AAGA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,aAAa;IACb,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,UAAU;AACd;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,qBAAqB;IACrB,WAAW;AACf","sourcesContent":["\n.setting-title{\n    display:flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.container{\n    display:flex;\n}\n\n.horizontal{\n    flex-direction: row;\n}\n.vertical{\n    flex-direction: column;\n}\n\n.flex-grow{\n    flex-grow:1;\n}\n\n\n.title{\n    font-size:xx-large;\n}\n\n.subtitle{\n    font-size: x-large;\n}\n\n.divider{\n    background:red;\n}\n\n.divider-horizontal{\n    margin:16px 0;\n    height:1px !important;\n}\n\n.divider-vertical{\n    margin:0 16px;\n    height:20vh !important;\n    width: 1px;\n}\n\n.text-align{\n    text-align:center;\n}\n\n.text-align-left{\n    text-align: left;\n}\n\n.text-align-right{\n    text-align: right;\n}\n\n.mt-1{\n    margin-top: 1rem;\n}\n\n.mb-1{\n    margin-bottom:1rem;\n}\n\na{\n    text-decoration: none;\n    color:white;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -254,74 +254,6 @@ const App = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
-
-/***/ }),
-
-/***/ "./src/component/button/index.css":
-/*!****************************************!*\
-  !*** ./src/component/button/index.css ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/button/index.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
-/***/ "./src/component/button/index.tsx":
-/*!****************************************!*\
-  !*** ./src/component/button/index.tsx ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./src/component/button/index.css");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/home/win/Documents/Javascript/c2d-tab/src/component/button/index.tsx";
-
-
-
-
-const Button = ({
-  children,
-  onClick
-}) => {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
-    className: "button",
-    onClick: () => onClick === null || onClick === void 0 ? void 0 : onClick(),
-    children: children || "Your label"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 10,
-    columnNumber: 5
-  }, undefined);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Button);
 
 /***/ }),
 
@@ -585,6 +517,107 @@ const Select = ({
 
 /***/ }),
 
+/***/ "./src/component/snackbar/index.css":
+/*!******************************************!*\
+  !*** ./src/component/snackbar/index.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/component/snackbar/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/component/snackbar/index.tsx":
+/*!******************************************!*\
+  !*** ./src/component/snackbar/index.tsx ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/component/snackbar/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/home/win/Documents/Javascript/c2d-tab/src/component/snackbar/index.tsx";
+
+
+
+
+
+
+const SnackBar = ({
+  message,
+  container,
+  root
+}) => {
+  react__WEBPACK_IMPORTED_MODULE_0__["useEffect"](() => {
+    setTimeout(() => {
+      if (root) {
+        root.removeChild(container);
+      }
+    }, 2000);
+  }, [root, container]);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+      id: "snackbar",
+      className: 'show',
+      children: message
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+const SnackBarMessage = (message, snippetContainer) => {
+  const container = document.createElement('div');
+  let tempContainer = snippetContainer;
+
+  if (!tempContainer) {
+    tempContainer = document.body;
+  }
+
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.createPortal( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(SnackBar, {
+    message: message,
+    container: container,
+    root: tempContainer
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 7
+  }, undefined), tempContainer.appendChild(container)), container);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SnackBarMessage);
+
+/***/ }),
+
 /***/ "./src/component/switch/index.css":
 /*!****************************************!*\
   !*** ./src/component/switch/index.css ***!
@@ -709,6 +742,8 @@ let STORAGE_KEY;
   STORAGE_KEY["C2D_INTERVAL"] = "C2D_INTERVAL";
   STORAGE_KEY["C2D_TAB"] = "C2D_TAB";
   STORAGE_KEY["C2D_AUTO_START"] = "C2D_AUTO_START";
+  STORAGE_KEY["C2D_START_STOP"] = "C2D_START_STOP";
+  STORAGE_KEY["C2D_IMMEDIATE_START"] = "C2D_IMMEDIATE_START";
 })(STORAGE_KEY || (STORAGE_KEY = {}));
 
 /***/ }),
@@ -751,21 +786,18 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./src/container/setting/index.css");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _component_select__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../component/select */ "./src/component/select/index.tsx");
-/* harmony import */ var _component_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../component/card */ "./src/component/card/index.tsx");
-/* harmony import */ var _component_switch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../component/switch */ "./src/component/switch/index.tsx");
-/* harmony import */ var _component_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../component/button */ "./src/component/button/index.tsx");
-/* harmony import */ var _utils_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../utils/storage */ "./src/utils/storage.ts");
-/* harmony import */ var _hooks_useStorage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../hooks/useStorage */ "./src/hooks/useStorage.tsx");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../constants */ "./src/constants.ts");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ "./src/container/setting/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _component_select__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../component/select */ "./src/component/select/index.tsx");
+/* harmony import */ var _component_card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../component/card */ "./src/component/card/index.tsx");
+/* harmony import */ var _component_switch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../component/switch */ "./src/component/switch/index.tsx");
+/* harmony import */ var _utils_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils/storage */ "./src/utils/storage.ts");
+/* harmony import */ var _hooks_useStorage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../hooks/useStorage */ "./src/hooks/useStorage.tsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../constants */ "./src/constants.ts");
+/* harmony import */ var _component_snackbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../component/snackbar */ "./src/component/snackbar/index.tsx");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__);
 var _jsxFileName = "/home/win/Documents/Javascript/c2d-tab/src/container/setting/index.tsx";
-
 
 
 
@@ -804,42 +836,39 @@ const MINIMUM_Tabs = [{
 }];
 
 const Setting = () => {
-  const interval = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_7__["default"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_INTERVAL);
-  const numberOfTabs = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_7__["default"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_TAB);
-  const autoStart = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_7__["default"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_AUTO_START);
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["Fragment"], {
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("a", {
+  const interval = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_5__["default"])(_constants__WEBPACK_IMPORTED_MODULE_6__["STORAGE_KEY"].C2D_INTERVAL);
+  const numberOfTabs = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_5__["default"])(_constants__WEBPACK_IMPORTED_MODULE_6__["STORAGE_KEY"].C2D_TAB);
+  const autoStart = Object(_hooks_useStorage__WEBPACK_IMPORTED_MODULE_5__["default"])(_constants__WEBPACK_IMPORTED_MODULE_6__["STORAGE_KEY"].C2D_AUTO_START);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("a", {
+        href: "https://github.com/watch-dog-mm/c2d-tab",
+        target: "_blank",
         className: "title setting-title",
-        children: "C2D Tab extension Settings"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 32,
-        columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_button__WEBPACK_IMPORTED_MODULE_5__["default"], {
-        children: "Start Supporting"
+        rel: "noreferrer",
+        children: "Your Daily C2D mission Settings"
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 33,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
           className: "divider divider-horizontal"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 41,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 40,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
         className: "container horizontal",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
           className: "container vertical flex-grow",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_1__["default"], {
               options: TIME_INTERVALS,
               selectedOption: interval ? interval : {
                 label: "30 minutes",
@@ -847,19 +876,20 @@ const Setting = () => {
               },
               label: "Tabs Show up Interval",
               onMenuItemClick: option => {
-                Object(_utils_storage__WEBPACK_IMPORTED_MODULE_6__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_INTERVAL, option);
+                Object(_utils_storage__WEBPACK_IMPORTED_MODULE_4__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_6__["STORAGE_KEY"].C2D_INTERVAL, option);
+                Object(_component_snackbar__WEBPACK_IMPORTED_MODULE_7__["default"])(`Extension မှ နောက်ထပ် ${option.label} တွင် ကြော်ငြာများဖွင့်ပေးပါမည်။`);
               }
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 41,
+              lineNumber: 47,
               columnNumber: 15
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 40,
+            lineNumber: 46,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_component_select__WEBPACK_IMPORTED_MODULE_1__["default"], {
               options: MINIMUM_Tabs,
               selectedOption: numberOfTabs ? numberOfTabs : {
                 label: "4 Tabs",
@@ -867,182 +897,192 @@ const Setting = () => {
               },
               label: "Minimum Tabs to Show",
               onMenuItemClick: option => {
-                Object(_utils_storage__WEBPACK_IMPORTED_MODULE_6__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_TAB, option);
+                Object(_utils_storage__WEBPACK_IMPORTED_MODULE_4__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_6__["STORAGE_KEY"].C2D_TAB, option);
+                Object(_component_snackbar__WEBPACK_IMPORTED_MODULE_7__["default"])(`Extension မှကြော်ငြာစဖွင့်လျှင် Tab ${option.value} ခုပွင့်လာပါလိမ့်မည်။`);
               }
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 55,
+              lineNumber: 62,
               columnNumber: 15
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 54,
+            lineNumber: 61,
             columnNumber: 13
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 45,
           columnNumber: 11
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
             className: "divider divider-vertical"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 66,
+            lineNumber: 78,
             columnNumber: 13
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 77,
           columnNumber: 11
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
           className: "container vertical flex-grow",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_switch__WEBPACK_IMPORTED_MODULE_4__["default"], {
-              label: "Start with Browser",
-              onChange: val => Object(_utils_storage__WEBPACK_IMPORTED_MODULE_6__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_8__["STORAGE_KEY"].C2D_AUTO_START, val),
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_component_switch__WEBPACK_IMPORTED_MODULE_3__["default"], {
+              label: "\u1000\u103D\u1014\u103A\u1015\u103C\u1030\u1010\u102C\u1016\u103D\u1004\u103A\u1037\u1010\u102C\u1014\u103E\u1004\u103A\u1037 \u1005\u1010\u1004\u103A\u1019\u100A\u103A",
+              onChange: val => {
+                Object(_utils_storage__WEBPACK_IMPORTED_MODULE_4__["setStorage"])(_constants__WEBPACK_IMPORTED_MODULE_6__["STORAGE_KEY"].C2D_AUTO_START, val);
+                Object(_component_snackbar__WEBPACK_IMPORTED_MODULE_7__["default"])(`Extension ကို နောက်တကြိမ် ကွန်ပြူတာဖွင့် တာနှင့် ${val ? "စတင်ပါမည်" : "မစတင်တော့ပါ"}။`);
+              },
               value: autoStart
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 70,
+              lineNumber: 82,
               columnNumber: 15
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 69,
+            lineNumber: 81,
             columnNumber: 13
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 68,
+          lineNumber: 80,
           columnNumber: 11
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 44,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
           className: "divider divider-horizontal"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 98,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 74,
+        lineNumber: 97,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
         className: "subtitle text-align-left mb-1",
         children: "Why we do this extension"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 77,
+        lineNumber: 100,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("ul", {
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("li", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("ul", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("li", {
             children: "\u1019\u1031\u1037\u1010\u1010\u103A\u101C\u102D\u102F\u1037"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 82,
+            lineNumber: 105,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("li", {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("li", {
             children: "\u1016\u102F\u1014\u103A\u1038\u1012\u1031\u1010\u102C\u1005\u103B\u1031\u1038\u1010\u1000\u103A\u101C\u102C\u101C\u102D\u102F\u1037 Wifi \u101B\u103E\u102D\u1010\u1032\u1037 \u101E\u1030\u1010\u103D\u1031 \u1000\u103D\u1014\u103A\u1015\u103C\u1030\u1010\u102C\u1014\u1032\u1037 \u1015\u102B\u101D\u1004\u103A\u1014\u102D\u102F\u1004\u103A\u1021\u1031\u102C\u1004\u103A"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 83,
+            lineNumber: 106,
             columnNumber: 13
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 104,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 80,
+        lineNumber: 103,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
           className: "divider divider-horizontal"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 114,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 90,
+        lineNumber: 113,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
         className: "subtitle text-align-left mb-1",
         children: "How it worked"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 93,
+        lineNumber: 116,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_2__["default"], {
         children: "Extension \u101E\u103D\u1004\u103A\u1038\u1011\u102C\u1038\u1001\u103C\u1004\u103A\u1038\u1016\u103C\u1004\u103A\u1037 \u1000\u102D\u102F\u101A\u103A\u1010\u102D\u102F\u1004\u103A C2D link \u1010\u103D\u1031\u1000\u102D\u102F \u1000\u1030\u1038\u1015\u103C\u102E\u1038\u1014\u103E\u102D\u1015\u103A\u1005\u101B\u102C\u1019\u101C\u102D\u102F\u1015\u102B\u1018\u1030\u1038 Tab \u1010\u103D\u1031\u101E\u103D\u102C\u1038\u1016\u103D\u1004\u103A\u1037\u1005\u101B\u102C\u1019\u101C\u102D\u102F\u1015\u102B\u1018\u1030\u1038\u1021\u1000\u101A\u103A\u101C\u102D\u102F\u1037\u1019\u102D\u1010\u103A\u1006\u103D\u1031\u1000 tab\u1010\u103D\u1031\u1000\u102D\u102F \u1019\u1015\u102D\u1010\u103A\u1016\u103C\u1005\u103A\u101B\u1004\u103A\u1010\u1031\u102C\u1004\u103A \u1019\u102D\u1010\u103A\u1006\u103D\u1031\u101E\u1010\u103A\u1019\u103E\u1010\u103A\u1011\u102C\u1038\u1010\u1032\u1037 \u1021\u1001\u103B\u102D\u1014\u103A\u1019\u103E\u102C \u101E\u1030\u1037\u1021\u101C\u102D\u102F\u101C\u102D\u102F\u1015\u102D\u1010\u103A\u1015\u1031\u1038\u1015\u102B\u1019\u101A\u103A"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 94,
-        columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-          className: "divider divider-horizontal"
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 101,
-          columnNumber: 11
-        }, undefined)
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 100,
-        columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-        className: "subtitle text-align-left mb-1",
-        children: ["Privacy of user Data", " "]
-      }, void 0, true, {
-        fileName: _jsxFileName,
-        lineNumber: 103,
-        columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        children: "\u1012\u102E Extention \u1000 User \u101B\u1032\u1037 \u1019\u100A\u103A\u101E\u100A\u103A\u1037 \u1021\u1001\u103B\u1000\u103A\u1021\u101C\u1000\u103A\u1000\u102D\u102F\u1019\u103B\u103E \u1019\u100A\u103A\u101E\u100A\u103A\u1037\u1014\u100A\u103A\u1038\u1014\u103E\u1004\u103A\u1037\u1019\u1006\u102D\u102F \u101B\u101A\u1030\u101E\u102F\u1036\u1038\u1005\u103D\u1032\u1001\u103C\u1004\u103A\u1038\u1019\u101B\u103E\u102D\u1015\u102B\u104B"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 106,
-        columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-          className: "divider divider-horizontal"
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 112,
-          columnNumber: 11
-        }, undefined)
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 111,
-        columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
-        className: "subtitle text-align-left mb-1",
-        children: "Code \u1000\u102D\u102F \u1018\u101A\u103A\u1019\u103E\u102C\u1000\u103C\u100A\u103A\u1037\u101C\u102D\u102F\u1037\u101B\u1019\u101C\u1032"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 114,
-        columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        children: "http://github.com"
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 117,
         columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        children: "\u1000\u103B\u1031\u1038\u1007\u1030\u1038\u1015\u103C\u102F\u1015\u103C\u102E\u1038 \u1019\u102D\u1019\u102D\u1010\u102D\u102F\u1037\u101B\u1032\u1037 Ads Blocker \u1019\u103B\u102C\u1038 \u1000\u102D\u102F \u1015\u102D\u1010\u103A\u1011\u102C\u1038\u1015\u1031\u1038\u1016\u102D\u102F\u1037 \u1019\u1031\u1010\u1039\u1010\u102C\u101B\u1015\u103A\u1001\u1036\u1001\u103B\u1004\u103A\u1015\u102B\u1010\u101A\u103A\u104B"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 123,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+          className: "divider divider-horizontal"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 127,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 126,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        className: "subtitle text-align-left mb-1",
+        children: ["Privacy of user Data", " "]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 129,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        children: "\u1012\u102E Extention \u1000 User \u101B\u1032\u1037 \u1019\u100A\u103A\u101E\u100A\u103A\u1037 \u1021\u1001\u103B\u1000\u103A\u1021\u101C\u1000\u103A\u1000\u102D\u102F\u1019\u103B\u103E \u1019\u100A\u103A\u101E\u100A\u103A\u1037\u1014\u100A\u103A\u1038\u1014\u103E\u1004\u103A\u1037\u1019\u1006\u102D\u102F \u101B\u101A\u1030\u101E\u102F\u1036\u1038\u1005\u103D\u1032\u1001\u103C\u1004\u103A\u1038\u1019\u101B\u103E\u102D\u1015\u102B\u104B"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 132,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+          className: "divider divider-horizontal"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 138,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 137,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        className: "subtitle text-align-left mb-1",
+        children: "Code \u1000\u102D\u102F \u1018\u101A\u103A\u1019\u103E\u102C\u1000\u103C\u100A\u103A\u1037\u101C\u102D\u102F\u1037\u101B\u1019\u101C\u1032"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 140,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_component_card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        children: "https://github.com/watch-dog-mm/c2d-tab"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 143,
+        columnNumber: 9
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 7
     }, undefined)
   }, void 0, false);
