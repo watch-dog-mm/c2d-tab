@@ -1164,9 +1164,10 @@ const useStorage = key => {
   const [result, setResult] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(undefined);
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     const loadStorage = async () => {
-      const interval = await Object(_utils_storage__WEBPACK_IMPORTED_MODULE_1__["getStorage"])(key);
-      setResult(interval[key]);
-      return interval[key];
+      const interval = Object(_utils_storage__WEBPACK_IMPORTED_MODULE_1__["getStorage"])(key);
+      const result = await interval;
+      setResult(result);
+      return result;
     };
 
     loadStorage();
@@ -1330,14 +1331,19 @@ const createDefaultOptions = options => {
     settings: options
   };
 };
-const getStorage = async key => {
-  if (browserObject && browserObject.storage) {
-    const result = await browserObject.storage.sync.get([key]);
-    return result;
-  } else {
-    const option = localStorage.getItem(key);
-    return option;
-  }
+const getStorage = key => {
+  const storage = new Promise((resolve, reject) => {
+    if (browserObject && browserObject.storage) {
+      browserObject.storage.sync.get([key], result => {
+        if (browserObject.runtime.lastError) reject(null);
+        resolve(result[key]);
+      });
+    } else {
+      const option = localStorage.getItem(key);
+      resolve(option);
+    }
+  }).then(val => val);
+  return storage;
 };
 
 /***/ })

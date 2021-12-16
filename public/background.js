@@ -8,7 +8,7 @@ const enums = {
 };
 
 // Chrome Storage
-const runtime = chrome ? chrome : browser;
+const browserAPI = chrome ? chrome : browser;
 
 const storage = ((browserObject) => {
   const clearStorage = () => {
@@ -28,7 +28,7 @@ const storage = ((browserObject) => {
           resolve(true);
         });
       } else {
-        localStorage.setItem(key, JSON.stringify({ setting_storage: value }));
+        localStorage.setItem(key, value);
         resolve(true);
       }
     });
@@ -40,19 +40,23 @@ const storage = ((browserObject) => {
     return { settings: options };
   };
 
-  const getStorage = async (key) => {
-    if (browserObject && browserObject.storage) {
-      const result = await browserObject.storage.sync.get([key]);
-
-      return result[key];
-    } else {
-      const option = localStorage.getItem(key);
-      return option;
-    }
+  const getStorage = (key) => {
+    const storage = new Promise((resolve, reject) => {
+      if (browserObject && browserObject.storage) {
+        browserObject.storage.sync.get([key], (result) => {
+          if (browserObject.runtime.lastError) reject(null);
+          resolve(result[key]);
+        });
+      } else {
+        const option = localStorage.getItem(key);
+        resolve(option);
+      }
+    }).then((val) => val);
+    return storage;
   };
 
   return { getStorage, setStorage, createDefaultOptions, clearStorage };
-})(runtime);
+})(browserAPI);
 
 // Awakening Service worker
 
@@ -60,7 +64,7 @@ let lifeline;
 
 keepAlive();
 
-chrome.runtime.onConnect.addListener((port) => {
+browserAPI.runtime.onConnect.addListener((port) => {
   if (port.name === "keepAlive") {
     lifeline = port;
     setTimeout(keepAliveForced, 295e3); // 5 minutes minus 5 seconds
@@ -74,20 +78,29 @@ function keepAliveForced() {
   keepAlive();
 }
 
+function queryTabs(url) {
+  return new Promise((resolve, reject) => {
+    if (browserAPI.runtime.lastError) reject(null);
+
+    browserAPI.tabs.query(url, (item) => resolve(item));
+  });
+}
+
 async function keepAlive() {
   if (lifeline) return;
-  for (const tab of await chrome.tabs.query({ url: "*://*/*" })) {
+  const queryPromise = queryTabs({ url: "*://*/*" });
+  for (const tab of await queryPromise) {
     try {
-      await chrome.scripting.executeScript({
+      await browser.scripting.executeScript({
         target: { tabId: tab.id },
-        function: () => chrome.runtime.connect({ name: "keepAlive" }),
+        function: () => browserAPI.runtime.connect({ name: "keepAlive" }),
         // `function` will become `func` in Chrome 93+
       });
-      chrome.tabs.onUpdated.removeListener(retryOnTabUpdate);
+      browserAPI.tabs.onUpdated.removeListener(retryOnTabUpdate);
       return;
     } catch (e) {}
   }
-  chrome.tabs.onUpdated.addListener(retryOnTabUpdate);
+  browserAPI.tabs.onUpdated.addListener(retryOnTabUpdate);
 }
 
 async function retryOnTabUpdate(tabId, info, tab) {
@@ -115,7 +128,7 @@ const app = (async (storage, enums) => {
     clearTimeout(timerID);
     // do something....
     try {
-      chrome.tabs.remove(tabIds);
+      browserAPI.tabs.remove(tabIds);
       tabIds = [];
     } catch (e) {
       console.log(e);
@@ -126,7 +139,7 @@ const app = (async (storage, enums) => {
     const { data } = await res.json();
 
     data.slice(0, tabs).forEach((i) => {
-      chrome.tabs.create(
+      browserAPI.tabs.create(
         {
           url: i,
         },
@@ -138,10 +151,12 @@ const app = (async (storage, enums) => {
   }
 
   const setDefaultSettings = async () => {
-    const autoStart = await storage.getStorage(enums.C2D_AUTO_START);
-
-    const tabs = await storage.getStorage(enums.C2D_TAB);
-    const interval = await storage.getStorage(enums.C2D_INTERVAL);
+    const autoStartPromise = storage.getStorage(enums.C2D_AUTO_START);
+    const autoStart = await autoStartPromise;
+    const tabsPromise = storage.getStorage(enums.C2D_TAB);
+    const tabs = await tabsPromise;
+    const intervalPromise = storage.getStorage(enums.C2D_INTERVAL);
+    const interval = await intervalPromise;
 
     if (
       autoStart === undefined &&
@@ -175,13 +190,16 @@ const app = (async (storage, enums) => {
   };
   await setDefaultSettings();
 
-  const autoStart = await storage.getStorage(enums.C2D_AUTO_START);
+  const autoStartPromise = storage.getStorage(enums.C2D_AUTO_START);
+  const autoStart = await autoStartPromise;
 
-  const interval = await storage.getStorage(enums.C2D_INTERVAL);
+  const intervalPromise = storage.getStorage(enums.C2D_INTERVAL);
+  const interval = await intervalPromise;
 
   if (autoStart) {
     stop();
-    const tabs = await storage.getStorage(enums.C2D_TAB);
+    const tabsPromise = storage.getStorage(enums.C2D_TAB);
+    const tabs = await tabsPromise;
 
     start(interval.value, tabs.value);
   }
@@ -195,10 +213,14 @@ const app = (async (storage, enums) => {
 
 // Message Listener
 
-chrome.storage.onChanged.addListener(async (opt) => {
+browserAPI.storage.onChanged.addListener(async (opt) => {
   const startStop = (opt[enums.C2D_AUTO_START] || {}).newValue;
-  const interval = await storage.getStorage(enums.C2D_INTERVAL);
-  const tabs = await storage.getStorage(enums.C2D_TAB);
+
+  const intervalPromise = storage.getStorage(enums.C2D_INTERVAL);
+  const interval = await intervalPromise;
+
+  const tabsPromise = storage.getStorage(enums.C2D_TAB);
+  const tabs = await tabsPromise;
 
   if (startStop) {
     const base = await app;

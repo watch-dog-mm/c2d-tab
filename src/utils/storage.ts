@@ -32,13 +32,17 @@ export const createDefaultOptions = (options: any) => {
   return { settings: options };
 };
 
-export const getStorage = async (key: string) => {
-  if (browserObject && browserObject.storage) {
-    const result = await browserObject.storage.sync.get([key]);
-
-    return result;
-  } else {
-    const option = localStorage.getItem(key);
-    return option;
-  }
+export const getStorage = (key: string) => {
+  const storage = new Promise((resolve, reject) => {
+    if (browserObject && browserObject.storage) {
+      browserObject.storage.sync.get([key], (result: any) => {
+        if (browserObject.runtime.lastError) reject(null);
+        resolve(result[key]);
+      });
+    } else {
+      const option = localStorage.getItem(key);
+      resolve(option);
+    }
+  }).then((val) => val);
+  return storage;
 };

@@ -6,9 +6,12 @@ const useStorage = (key: string) => {
 
   useEffect(() => {
     const loadStorage = async () => {
-      const interval = await getStorage(key);
-      setResult(interval[key])
-      return interval[key];
+      const interval = getStorage(key)
+      
+      const result = await interval
+      
+      setResult(result)
+      return result;
     };
 
     loadStorage();
